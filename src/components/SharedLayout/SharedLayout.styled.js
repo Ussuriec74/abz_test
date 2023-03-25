@@ -5,13 +5,13 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 0 ${p => p.theme.space[4]}px;
 
-  @media (min-width: ${p => p.theme.space[10]}px) {
-    width: ${p => p.theme.space[10]}px;
-    padding: 0 ${p => p.theme.space[5]}px;
-  }
   @media (min-width: ${p => p.theme.space[11]}px) {
     width: ${p => p.theme.space[11]}px;
-    padding: 0 ${p => p.theme.space[6]}px;;
+    padding: 0 ${p => p.theme.space[6]}px;
+  }
+  @media (min-width: ${p => p.theme.space[12]}px) {
+    width: ${p => p.theme.space[12]}px;
+    padding: 0 ${p => p.theme.space[7]}px;;
   }
 `;
 
@@ -20,7 +20,7 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: ${p => p.theme.space[6]}px;
+  min-height: ${p => p.theme.space[7]}px;
   background-color: ${p => p.theme.colors.white};
 `;
 

@@ -13,10 +13,10 @@ export const theme = {
     btnDisabledTextColor: 'rgba(255, 255, 255, 0.87);',
     accentColor: '#2398AB',
   },
-  space: [0, 2, 4, 8, 16, 32, 60, 128, 256, 512, 768, 1024],
+  space: [0, 2, 4, 8, 16, 22, 32, 60, 128, 256, 512, 768, 1024, 100],
   fontSizes: {
     xs: '12px',
-    s: '14px',
+    s: '16px',
     m: '20px',
     l: '24px',
     xl: '32px',
@@ -48,6 +48,7 @@ export const theme = {
     none: '0',
     small: '4px',
     normal: '8px',
+    big: '80px',
     round: '50%',
   },
   shadows: {
